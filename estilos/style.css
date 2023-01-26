@@ -39,6 +39,12 @@ header{
 
 
 }
+.imagens_jogadores{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    
+}
 
 .historiaimg {
     display: block;
@@ -62,7 +68,7 @@ nav > a {
     color: rgb(0, 0, 0);
     text-decoration: none;
     font-weight: bold;
-    transition-duration: 1s;
+    
 }
 
 .alvaro{
@@ -72,8 +78,9 @@ nav > a {
 
 
 nav > a:hover {
-    background-color: var(rgba(255, 0, 0, 0.587));
-    padding: 7px;
+    background-color: red;
+    padding: 5px;
+    transition-duration: 1s;
 }
 
 footer {
