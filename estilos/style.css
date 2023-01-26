@@ -64,7 +64,7 @@ nav{
 }
 
 nav > a {
-    border-radius: 20px;
+    border-radius: 10px;
     color: rgb(0, 0, 0);
     text-decoration: none;
     font-weight: bold;
@@ -74,13 +74,14 @@ nav > a {
 .alvaro{
     font-weight: bold;
     text-decoration: underline;
+    
 }
 
 
 nav > a:hover {
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.76);
     padding: 5px;
-    transition-duration: 1s;
+    transition-duration: 1.5s;
 }
 
 footer {
